@@ -1,0 +1,422 @@
+{
+  "summary": {
+    "answer_accuracy": 0.9,
+    "faithfulness": 1.0,
+    "num_judged": 18,
+    "correct_refusal_rate": 1.0,
+    "wrong_refusal_rate": 0.1,
+    "num_answerable": 20,
+    "num_unanswerable": 4,
+    "retriever": "hybrid"
+  },
+  "rows": [
+    {
+      "qid": "Q01",
+      "type": "keyword",
+      "question": "Which pigment in leaves captures sunlight for photosynthesis?",
+      "gold": "S01",
+      "retrieved": [
+        "S01",
+        "S03",
+        "S29"
+      ],
+      "gold_retrieved": true,
+      "answer": "The green pigment chlorophyll in leaves captures sunlight for photosynthesis [S01].",
+      "refused": false,
+      "keyword_correct": true,
+      "faithful": true,
+      "judge_verdict": "SUPPORTED\nThe passages explicitly state that the green pigment chlorophyll in the leaves is used in photosynthesis."
+    },
+    {
+      "qid": "Q02",
+      "type": "paraphrase",
+      "question": "What substance builds up in my legs when I sprint hard and they start to ache?",
+      "gold": "S02",
+      "retrieved": [
+        "S02",
+        "S06",
+        "S08"
+      ],
+      "gold_retrieved": true,
+      "answer": "When human muscle cells undergo anaerobic respiration during hard exercise, they produce lactic acid, which causes cramps [S02].",
+      "refused": false,
+      "keyword_correct": true,
+      "faithful": true,
+      "judge_verdict": "SUPPORTED\nThe answer is fully supported by the text explaining that human muscle cells produce lactic acid during anaerobic respiration, causing cramps after hard exercise."
+    },
+    {
+      "qid": "Q03",
+      "type": "keyword",
+      "question": "Which part of the cell is called its powerhouse?",
+      "gold": "S03",
+      "retrieved": [
+        "S03",
+        "S07",
+        "S01"
+      ],
+      "gold_retrieved": true,
+      "answer": "Mitochondria are called the powerhouse of the cell because they carry out aerobic respiration and produce ATP [S03].",
+      "refused": false,
+      "keyword_correct": true,
+      "faithful": true,
+      "judge_verdict": "SUPPORTED\nEvery fact in the answer is directly found in passage [S03]."
+    },
+    {
+      "qid": "Q04",
+      "type": "keyword",
+      "question": "Which base pairs with guanine in DNA?",
+      "gold": "S04",
+      "retrieved": [
+        "S04",
+        "S23",
+        "S03"
+      ],
+      "gold_retrieved": true,
+      "answer": "Cytosine always pairs with guanine in DNA [S04].",
+      "refused": false,
+      "keyword_correct": true,
+      "faithful": true,
+      "judge_verdict": "SUPPORTED\nThe passage explicitly states that guanine always pairs with cytosine in DNA."
+    },
+    {
+      "qid": "Q05",
+      "type": "paraphrase",
+      "question": "In the pea experiment, what proportion of offspring showed each form after self-crossing the first generation?",
+      "gold": "S05",
+      "retrieved": [
+        "S05",
+        "S28",
+        "S04"
+      ],
+      "gold_retrieved": true,
+      "answer": "When the F1 plants were self-pollinated, the F2 generation showed tall and dwarf plants in a ratio of 3:1 [S05].",
+      "refused": false,
+      "keyword_correct": true,
+      "faithful": true,
+      "judge_verdict": "SUPPORTED\nEvery fact in the answer is directly supported by the provided text."
+    },
+    {
+      "qid": "Q06",
+      "type": "paraphrase",
+      "question": "What tiny finger shapes help our body soak up nutrients after we eat?",
+      "gold": "S06",
+      "retrieved": [
+        "S06",
+        "S07",
+        "S01"
+      ],
+      "gold_retrieved": true,
+      "answer": "Finger-like projections called villi on the inner wall of the small intestine increase the surface area for absorption [S06].",
+      "refused": false,
+      "keyword_correct": true,
+      "faithful": true,
+      "judge_verdict": "SUPPORTED\nEvery fact in the answer is directly supported by the provided text in passage S06."
+    },
+    {
+      "qid": "Q07",
+      "type": "paraphrase",
+      "question": "What is the meeting point between two brain cells called?",
+      "gold": "S07",
+      "retrieved": [
+        "S07",
+        "S03",
+        "S02"
+      ],
+      "gold_retrieved": true,
+      "answer": "The junction between two neurons (nerve cells) is called a synapse [S07].",
+      "refused": false,
+      "keyword_correct": true,
+      "faithful": true,
+      "judge_verdict": "SUPPORTED\nThe answer correctly states that the junction between two neurons is called a synapse, which is directly supported by the text."
+    },
+    {
+      "qid": "Q08",
+      "type": "keyword",
+      "question": "Which hormone controls blood sugar?",
+      "gold": "S08",
+      "retrieved": [
+        "S08",
+        "S07",
+        "S03"
+      ],
+      "gold_retrieved": true,
+      "answer": "Insulin controls the level of sugar in the blood [S08].",
+      "refused": false,
+      "keyword_correct": true,
+      "faithful": true,
+      "judge_verdict": "SUPPORTED\nThe passage explicitly states that insulin controls the level of sugar in the blood."
+    },
+    {
+      "qid": "Q09",
+      "type": "keyword",
+      "question": "How much energy is passed on from one level of a food chain to the next?",
+      "gold": "S09",
+      "retrieved": [
+        "S09",
+        "S02",
+        "S15"
+      ],
+      "gold_retrieved": true,
+      "answer": "Only about 10 percent of the energy at one level passes to the next level [S09].",
+      "refused": false,
+      "keyword_correct": true,
+      "faithful": true,
+      "judge_verdict": "SUPPORTED\nThe answer is directly supported by the text in passage [S09], which states that only about 10 percent of the energy at one level passes to the next."
+    },
+    {
+      "qid": "Q10",
+      "type": "paraphrase",
+      "question": "Which spray gases damage the shield in the sky that protects us from the Sun's harmful rays?",
+      "gold": "S10",
+      "retrieved": [
+        "S10",
+        "S28",
+        "S14"
+      ],
+      "gold_retrieved": true,
+      "answer": "Chlorofluorocarbons (CFCs), which were once used in aerosol sprays, damage the ozone layer that absorbs harmful UV radiation from the Sun [S10].",
+      "refused": false,
+      "keyword_correct": true,
+      "faithful": true,
+      "judge_verdict": "SUPPORTED\nEvery fact in the answer is directly supported by the provided text in passage S10."
+    },
+    {
+      "qid": "Q11",
+      "type": "paraphrase",
+      "question": "Why does a heavy truck need more effort to start moving than a bicycle?",
+      "gold": "S11",
+      "retrieved": [
+        "S11",
+        "S13",
+        "S15"
+      ],
+      "gold_retrieved": true,
+      "answer": "I don't know based on the given passages.",
+      "refused": true,
+      "keyword_correct": false,
+      "faithful": true,
+      "judge_verdict": "SKIPPED (refusal makes no factual claim)"
+    },
+    {
+      "qid": "Q12",
+      "type": "keyword",
+      "question": "What is the SI unit of force?",
+      "gold": "S12",
+      "retrieved": [
+        "S12",
+        "S15",
+        "S17"
+      ],
+      "gold_retrieved": true,
+      "answer": "The SI unit of force is the newton (N) [S12].",
+      "refused": false,
+      "keyword_correct": true,
+      "faithful": true,
+      "judge_verdict": "SUPPORTED\nThe answer correctly states that the SI unit of force is the newton (N), which is directly supported by passage [S12]."
+    },
+    {
+      "qid": "Q13",
+      "type": "paraphrase",
+      "question": "Why does a rifle kick back against the shoulder of the person firing it?",
+      "gold": "S13",
+      "retrieved": [
+        "S19",
+        "S21",
+        "S02"
+      ],
+      "gold_retrieved": false,
+      "answer": "I don't know based on the given passages.",
+      "refused": true,
+      "keyword_correct": false,
+      "faithful": true,
+      "judge_verdict": "SKIPPED (refusal makes no factual claim)"
+    },
+    {
+      "qid": "Q14",
+      "type": "keyword",
+      "question": "What is the value of acceleration due to gravity on Earth?",
+      "gold": "S14",
+      "retrieved": [
+        "S14",
+        "S12",
+        "S15"
+      ],
+      "gold_retrieved": true,
+      "answer": "The acceleration due to gravity on the surface of the Earth is about 9.8 m/s^2 [S14].",
+      "refused": false,
+      "keyword_correct": true,
+      "faithful": true,
+      "judge_verdict": "SUPPORTED\nThe value of the acceleration due to gravity on the surface of the Earth is directly stated in [S14] as about 9.8 m/s^2."
+    },
+    {
+      "qid": "Q15",
+      "type": "paraphrase",
+      "question": "How many joules does one unit on my electricity bill stand for?",
+      "gold": "S17",
+      "retrieved": [
+        "S17",
+        "S15",
+        "S12"
+      ],
+      "gold_retrieved": true,
+      "answer": "One unit of electricity (the kilowatt-hour) equals $3.6 \\times 10^6$ joules [S17].",
+      "refused": false,
+      "keyword_correct": true,
+      "faithful": true,
+      "judge_verdict": "SUPPORTED\nEvery fact in the answer is directly supported by the provided text in passage S17."
+    },
+    {
+      "qid": "Q16",
+      "type": "keyword",
+      "question": "Who discovered electromagnetic induction?",
+      "gold": "S18",
+      "retrieved": [
+        "S18",
+        "S25",
+        "S05"
+      ],
+      "gold_retrieved": true,
+      "answer": "Michael Faraday discovered electromagnetic induction [S18].",
+      "refused": false,
+      "keyword_correct": true,
+      "faithful": true,
+      "judge_verdict": "SUPPORTED\nThe passage [S18] explicitly states that electromagnetic induction was discovered by Michael Faraday."
+    },
+    {
+      "qid": "Q17",
+      "type": "keyword",
+      "question": "Which mirror is used as a rear-view mirror in cars?",
+      "gold": "S19",
+      "retrieved": [
+        "S19",
+        "S10",
+        "S23"
+      ],
+      "gold_retrieved": true,
+      "answer": "Convex mirrors are used as rear-view mirrors in vehicles [S19].",
+      "refused": false,
+      "keyword_correct": true,
+      "faithful": true,
+      "judge_verdict": "SUPPORTED\nThe answer correctly uses information directly stated in passage S19."
+    },
+    {
+      "qid": "Q18",
+      "type": "paraphrase",
+      "question": "What kind of spectacles help a student who cannot read the board from the last bench?",
+      "gold": "S21",
+      "retrieved": [
+        "S21",
+        "S02",
+        "S07"
+      ],
+      "gold_retrieved": true,
+      "answer": "A student who cannot read the board from the last bench suffers from myopia (near-sightedness) and needs spectacles with a concave lens [S21].",
+      "refused": false,
+      "keyword_correct": true,
+      "faithful": true,
+      "judge_verdict": "SUPPORTED\nThe passages state that near-sightedness (myopia) prevents seeing distant objects clearly and is corrected using a concave lens."
+    },
+    {
+      "qid": "Q19",
+      "type": "keyword",
+      "question": "What is the pH of a neutral solution?",
+      "gold": "S23",
+      "retrieved": [
+        "S23",
+        "S24",
+        "S06"
+      ],
+      "gold_retrieved": true,
+      "answer": "A pH of 7 is neutral [S23].",
+      "refused": false,
+      "keyword_correct": true,
+      "faithful": true,
+      "judge_verdict": "SUPPORTED\nThe passage explicitly states that a pH of 7 is neutral."
+    },
+    {
+      "qid": "Q20",
+      "type": "paraphrase",
+      "question": "How do we protect iron gates from turning reddish-brown in the rain?",
+      "gold": "S27",
+      "retrieved": [
+        "S27",
+        "S28",
+        "S24"
+      ],
+      "gold_retrieved": true,
+      "answer": "Iron gates can be protected from rusting (turning reddish-brown due to oxygen and moisture/rain) by painting, oiling, or galvanisation, which involves coating the iron with zinc [S27].",
+      "refused": false,
+      "keyword_correct": true,
+      "faithful": true,
+      "judge_verdict": "SUPPORTED\nEvery fact in the answer regarding how to prevent iron from rusting and what causes it is directly supported by the provided text."
+    },
+    {
+      "qid": "U01",
+      "type": "unanswerable",
+      "question": "Who is the current Prime Minister of India?",
+      "gold": null,
+      "retrieved": [
+        "S18",
+        "S17",
+        "S12"
+      ],
+      "gold_retrieved": null,
+      "answer": "I don't know based on the given passages.",
+      "refused": true,
+      "keyword_correct": null,
+      "faithful": true,
+      "judge_verdict": "SKIPPED (refusal makes no factual claim)"
+    },
+    {
+      "qid": "U02",
+      "type": "unanswerable",
+      "question": "What is the boiling point of ethanol?",
+      "gold": null,
+      "retrieved": [
+        "S02",
+        "S06",
+        "S04"
+      ],
+      "gold_retrieved": null,
+      "answer": "I don't know based on the given passages.",
+      "refused": true,
+      "keyword_correct": null,
+      "faithful": true,
+      "judge_verdict": "SKIPPED (refusal makes no factual claim)"
+    },
+    {
+      "qid": "U03",
+      "type": "unanswerable",
+      "question": "How many moons does Jupiter have?",
+      "gold": null,
+      "retrieved": [
+        "S25",
+        "S03",
+        "S01"
+      ],
+      "gold_retrieved": null,
+      "answer": "I don't know based on the given passages.",
+      "refused": true,
+      "keyword_correct": null,
+      "faithful": true,
+      "judge_verdict": "SKIPPED (refusal makes no factual claim)"
+    },
+    {
+      "qid": "U04",
+      "type": "unanswerable",
+      "question": "What is the speed of light in glass?",
+      "gold": null,
+      "retrieved": [
+        "S20",
+        "S19",
+        "S21"
+      ],
+      "gold_retrieved": null,
+      "answer": "I don't know based on the given passages.",
+      "refused": true,
+      "keyword_correct": null,
+      "faithful": true,
+      "judge_verdict": "SKIPPED (refusal makes no factual claim)"
+    }
+  ]
+}

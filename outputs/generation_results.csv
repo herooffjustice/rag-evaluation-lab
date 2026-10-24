@@ -1,0 +1,43 @@
+qid,type,question,gold,retrieved,gold_retrieved,answer,refused,keyword_correct,faithful,judge_verdict
+Q01,keyword,Which pigment in leaves captures sunlight for photosynthesis?,S01,"['S01', 'S03', 'S29']",True,The green pigment chlorophyll in leaves captures sunlight for photosynthesis [S01].,False,True,True,"SUPPORTED
+The passages explicitly state that the green pigment chlorophyll in the leaves is used in photosynthesis."
+Q02,paraphrase,What substance builds up in my legs when I sprint hard and they start to ache?,S02,"['S02', 'S06', 'S08']",True,"When human muscle cells undergo anaerobic respiration during hard exercise, they produce lactic acid, which causes cramps [S02].",False,True,True,"SUPPORTED
+The answer is fully supported by the text explaining that human muscle cells produce lactic acid during anaerobic respiration, causing cramps after hard exercise."
+Q03,keyword,Which part of the cell is called its powerhouse?,S03,"['S03', 'S07', 'S01']",True,Mitochondria are called the powerhouse of the cell because they carry out aerobic respiration and produce ATP [S03].,False,True,True,"SUPPORTED
+Every fact in the answer is directly found in passage [S03]."
+Q04,keyword,Which base pairs with guanine in DNA?,S04,"['S04', 'S23', 'S03']",True,Cytosine always pairs with guanine in DNA [S04].,False,True,True,"SUPPORTED
+The passage explicitly states that guanine always pairs with cytosine in DNA."
+Q05,paraphrase,"In the pea experiment, what proportion of offspring showed each form after self-crossing the first generation?",S05,"['S05', 'S28', 'S04']",True,"When the F1 plants were self-pollinated, the F2 generation showed tall and dwarf plants in a ratio of 3:1 [S05].",False,True,True,"SUPPORTED
+Every fact in the answer is directly supported by the provided text."
+Q06,paraphrase,What tiny finger shapes help our body soak up nutrients after we eat?,S06,"['S06', 'S07', 'S01']",True,Finger-like projections called villi on the inner wall of the small intestine increase the surface area for absorption [S06].,False,True,True,"SUPPORTED
+Every fact in the answer is directly supported by the provided text in passage S06."
+Q07,paraphrase,What is the meeting point between two brain cells called?,S07,"['S07', 'S03', 'S02']",True,The junction between two neurons (nerve cells) is called a synapse [S07].,False,True,True,"SUPPORTED
+The answer correctly states that the junction between two neurons is called a synapse, which is directly supported by the text."
+Q08,keyword,Which hormone controls blood sugar?,S08,"['S08', 'S07', 'S03']",True,Insulin controls the level of sugar in the blood [S08].,False,True,True,"SUPPORTED
+The passage explicitly states that insulin controls the level of sugar in the blood."
+Q09,keyword,How much energy is passed on from one level of a food chain to the next?,S09,"['S09', 'S02', 'S15']",True,Only about 10 percent of the energy at one level passes to the next level [S09].,False,True,True,"SUPPORTED
+The answer is directly supported by the text in passage [S09], which states that only about 10 percent of the energy at one level passes to the next."
+Q10,paraphrase,Which spray gases damage the shield in the sky that protects us from the Sun's harmful rays?,S10,"['S10', 'S28', 'S14']",True,"Chlorofluorocarbons (CFCs), which were once used in aerosol sprays, damage the ozone layer that absorbs harmful UV radiation from the Sun [S10].",False,True,True,"SUPPORTED
+Every fact in the answer is directly supported by the provided text in passage S10."
+Q11,paraphrase,Why does a heavy truck need more effort to start moving than a bicycle?,S11,"['S11', 'S13', 'S15']",True,I don't know based on the given passages.,True,False,True,SKIPPED (refusal makes no factual claim)
+Q12,keyword,What is the SI unit of force?,S12,"['S12', 'S15', 'S17']",True,The SI unit of force is the newton (N) [S12].,False,True,True,"SUPPORTED
+The answer correctly states that the SI unit of force is the newton (N), which is directly supported by passage [S12]."
+Q13,paraphrase,Why does a rifle kick back against the shoulder of the person firing it?,S13,"['S19', 'S21', 'S02']",False,I don't know based on the given passages.,True,False,True,SKIPPED (refusal makes no factual claim)
+Q14,keyword,What is the value of acceleration due to gravity on Earth?,S14,"['S14', 'S12', 'S15']",True,The acceleration due to gravity on the surface of the Earth is about 9.8 m/s^2 [S14].,False,True,True,"SUPPORTED
+The value of the acceleration due to gravity on the surface of the Earth is directly stated in [S14] as about 9.8 m/s^2."
+Q15,paraphrase,How many joules does one unit on my electricity bill stand for?,S17,"['S17', 'S15', 'S12']",True,One unit of electricity (the kilowatt-hour) equals $3.6 \times 10^6$ joules [S17].,False,True,True,"SUPPORTED
+Every fact in the answer is directly supported by the provided text in passage S17."
+Q16,keyword,Who discovered electromagnetic induction?,S18,"['S18', 'S25', 'S05']",True,Michael Faraday discovered electromagnetic induction [S18].,False,True,True,"SUPPORTED
+The passage [S18] explicitly states that electromagnetic induction was discovered by Michael Faraday."
+Q17,keyword,Which mirror is used as a rear-view mirror in cars?,S19,"['S19', 'S10', 'S23']",True,Convex mirrors are used as rear-view mirrors in vehicles [S19].,False,True,True,"SUPPORTED
+The answer correctly uses information directly stated in passage S19."
+Q18,paraphrase,What kind of spectacles help a student who cannot read the board from the last bench?,S21,"['S21', 'S02', 'S07']",True,A student who cannot read the board from the last bench suffers from myopia (near-sightedness) and needs spectacles with a concave lens [S21].,False,True,True,"SUPPORTED
+The passages state that near-sightedness (myopia) prevents seeing distant objects clearly and is corrected using a concave lens."
+Q19,keyword,What is the pH of a neutral solution?,S23,"['S23', 'S24', 'S06']",True,A pH of 7 is neutral [S23].,False,True,True,"SUPPORTED
+The passage explicitly states that a pH of 7 is neutral."
+Q20,paraphrase,How do we protect iron gates from turning reddish-brown in the rain?,S27,"['S27', 'S28', 'S24']",True,"Iron gates can be protected from rusting (turning reddish-brown due to oxygen and moisture/rain) by painting, oiling, or galvanisation, which involves coating the iron with zinc [S27].",False,True,True,"SUPPORTED
+Every fact in the answer regarding how to prevent iron from rusting and what causes it is directly supported by the provided text."
+U01,unanswerable,Who is the current Prime Minister of India?,,"['S18', 'S17', 'S12']",,I don't know based on the given passages.,True,,True,SKIPPED (refusal makes no factual claim)
+U02,unanswerable,What is the boiling point of ethanol?,,"['S02', 'S06', 'S04']",,I don't know based on the given passages.,True,,True,SKIPPED (refusal makes no factual claim)
+U03,unanswerable,How many moons does Jupiter have?,,"['S25', 'S03', 'S01']",,I don't know based on the given passages.,True,,True,SKIPPED (refusal makes no factual claim)
+U04,unanswerable,What is the speed of light in glass?,,"['S20', 'S19', 'S21']",,I don't know based on the given passages.,True,,True,SKIPPED (refusal makes no factual claim)

@@ -1,0 +1,726 @@
+{
+  "summary": {
+    "bm25": {
+      "all": {
+        "recall_at_1": 0.85,
+        "recall_at_3": 0.9,
+        "mrr": 0.891,
+        "n": 20
+      },
+      "keyword": {
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "mrr": 1.0,
+        "n": 10
+      },
+      "paraphrase": {
+        "recall_at_1": 0.7,
+        "recall_at_3": 0.8,
+        "mrr": 0.781,
+        "n": 10
+      }
+    },
+    "dense": {
+      "all": {
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "mrr": 1.0,
+        "n": 20
+      },
+      "keyword": {
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "mrr": 1.0,
+        "n": 10
+      },
+      "paraphrase": {
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "mrr": 1.0,
+        "n": 10
+      }
+    },
+    "hybrid": {
+      "all": {
+        "recall_at_1": 0.95,
+        "recall_at_3": 0.95,
+        "mrr": 0.96,
+        "n": 20
+      },
+      "keyword": {
+        "recall_at_1": 1.0,
+        "recall_at_3": 1.0,
+        "mrr": 1.0,
+        "n": 10
+      },
+      "paraphrase": {
+        "recall_at_1": 0.9,
+        "recall_at_3": 0.9,
+        "mrr": 0.92,
+        "n": 10
+      }
+    }
+  },
+  "rows": [
+    {
+      "mode": "bm25",
+      "qid": "Q01",
+      "gold": "S01",
+      "rank": 1,
+      "top3": [
+        "S01",
+        "S29",
+        "S02"
+      ]
+    },
+    {
+      "mode": "bm25",
+      "qid": "Q02",
+      "gold": "S02",
+      "rank": 1,
+      "top3": [
+        "S02",
+        "S24",
+        "S20"
+      ]
+    },
+    {
+      "mode": "bm25",
+      "qid": "Q03",
+      "gold": "S03",
+      "rank": 1,
+      "top3": [
+        "S03",
+        "S07",
+        "S01"
+      ]
+    },
+    {
+      "mode": "bm25",
+      "qid": "Q04",
+      "gold": "S04",
+      "rank": 1,
+      "top3": [
+        "S04",
+        "S23",
+        "S01"
+      ]
+    },
+    {
+      "mode": "bm25",
+      "qid": "Q05",
+      "gold": "S05",
+      "rank": 1,
+      "top3": [
+        "S05",
+        "S13",
+        "S11"
+      ]
+    },
+    {
+      "mode": "bm25",
+      "qid": "Q06",
+      "gold": "S06",
+      "rank": 4,
+      "top3": [
+        "S01",
+        "S02",
+        "S09"
+      ]
+    },
+    {
+      "mode": "bm25",
+      "qid": "Q07",
+      "gold": "S07",
+      "rank": 1,
+      "top3": [
+        "S07",
+        "S03",
+        "S13"
+      ]
+    },
+    {
+      "mode": "bm25",
+      "qid": "Q08",
+      "gold": "S08",
+      "rank": 1,
+      "top3": [
+        "S08",
+        "S03",
+        "S07"
+      ]
+    },
+    {
+      "mode": "bm25",
+      "qid": "Q09",
+      "gold": "S09",
+      "rank": 1,
+      "top3": [
+        "S09",
+        "S15",
+        "S02"
+      ]
+    },
+    {
+      "mode": "bm25",
+      "qid": "Q10",
+      "gold": "S10",
+      "rank": 1,
+      "top3": [
+        "S10",
+        "S13",
+        "S22"
+      ]
+    },
+    {
+      "mode": "bm25",
+      "qid": "Q11",
+      "gold": "S11",
+      "rank": 2,
+      "top3": [
+        "S24",
+        "S11",
+        "S22"
+      ]
+    },
+    {
+      "mode": "bm25",
+      "qid": "Q12",
+      "gold": "S12",
+      "rank": 1,
+      "top3": [
+        "S12",
+        "S15",
+        "S17"
+      ]
+    },
+    {
+      "mode": "bm25",
+      "qid": "Q13",
+      "gold": "S13",
+      "rank": 16,
+      "top3": [
+        "S21",
+        "S28",
+        "S19"
+      ]
+    },
+    {
+      "mode": "bm25",
+      "qid": "Q14",
+      "gold": "S14",
+      "rank": 1,
+      "top3": [
+        "S14",
+        "S28",
+        "S12"
+      ]
+    },
+    {
+      "mode": "bm25",
+      "qid": "Q15",
+      "gold": "S17",
+      "rank": 1,
+      "top3": [
+        "S17",
+        "S15",
+        "S12"
+      ]
+    },
+    {
+      "mode": "bm25",
+      "qid": "Q16",
+      "gold": "S18",
+      "rank": 1,
+      "top3": [
+        "S18",
+        "S25",
+        "S01"
+      ]
+    },
+    {
+      "mode": "bm25",
+      "qid": "Q17",
+      "gold": "S19",
+      "rank": 1,
+      "top3": [
+        "S19",
+        "S10",
+        "S17"
+      ]
+    },
+    {
+      "mode": "bm25",
+      "qid": "Q18",
+      "gold": "S21",
+      "rank": 1,
+      "top3": [
+        "S21",
+        "S22",
+        "S01"
+      ]
+    },
+    {
+      "mode": "bm25",
+      "qid": "Q19",
+      "gold": "S23",
+      "rank": 1,
+      "top3": [
+        "S23",
+        "S24",
+        "S01"
+      ]
+    },
+    {
+      "mode": "bm25",
+      "qid": "Q20",
+      "gold": "S27",
+      "rank": 1,
+      "top3": [
+        "S27",
+        "S28",
+        "S17"
+      ]
+    },
+    {
+      "mode": "dense",
+      "qid": "Q01",
+      "gold": "S01",
+      "rank": 1,
+      "top3": [
+        "S01",
+        "S10",
+        "S28"
+      ]
+    },
+    {
+      "mode": "dense",
+      "qid": "Q02",
+      "gold": "S02",
+      "rank": 1,
+      "top3": [
+        "S02",
+        "S08",
+        "S06"
+      ]
+    },
+    {
+      "mode": "dense",
+      "qid": "Q03",
+      "gold": "S03",
+      "rank": 1,
+      "top3": [
+        "S03",
+        "S07",
+        "S06"
+      ]
+    },
+    {
+      "mode": "dense",
+      "qid": "Q04",
+      "gold": "S04",
+      "rank": 1,
+      "top3": [
+        "S04",
+        "S23",
+        "S26"
+      ]
+    },
+    {
+      "mode": "dense",
+      "qid": "Q05",
+      "gold": "S05",
+      "rank": 1,
+      "top3": [
+        "S05",
+        "S30",
+        "S04"
+      ]
+    },
+    {
+      "mode": "dense",
+      "qid": "Q06",
+      "gold": "S06",
+      "rank": 1,
+      "top3": [
+        "S06",
+        "S07",
+        "S23"
+      ]
+    },
+    {
+      "mode": "dense",
+      "qid": "Q07",
+      "gold": "S07",
+      "rank": 1,
+      "top3": [
+        "S07",
+        "S03",
+        "S21"
+      ]
+    },
+    {
+      "mode": "dense",
+      "qid": "Q08",
+      "gold": "S08",
+      "rank": 1,
+      "top3": [
+        "S08",
+        "S06",
+        "S07"
+      ]
+    },
+    {
+      "mode": "dense",
+      "qid": "Q09",
+      "gold": "S09",
+      "rank": 1,
+      "top3": [
+        "S09",
+        "S02",
+        "S06"
+      ]
+    },
+    {
+      "mode": "dense",
+      "qid": "Q10",
+      "gold": "S10",
+      "rank": 1,
+      "top3": [
+        "S10",
+        "S29",
+        "S19"
+      ]
+    },
+    {
+      "mode": "dense",
+      "qid": "Q11",
+      "gold": "S11",
+      "rank": 1,
+      "top3": [
+        "S11",
+        "S13",
+        "S12"
+      ]
+    },
+    {
+      "mode": "dense",
+      "qid": "Q12",
+      "gold": "S12",
+      "rank": 1,
+      "top3": [
+        "S12",
+        "S14",
+        "S17"
+      ]
+    },
+    {
+      "mode": "dense",
+      "qid": "Q13",
+      "gold": "S13",
+      "rank": 1,
+      "top3": [
+        "S13",
+        "S11",
+        "S18"
+      ]
+    },
+    {
+      "mode": "dense",
+      "qid": "Q14",
+      "gold": "S14",
+      "rank": 1,
+      "top3": [
+        "S14",
+        "S12",
+        "S11"
+      ]
+    },
+    {
+      "mode": "dense",
+      "qid": "Q15",
+      "gold": "S17",
+      "rank": 1,
+      "top3": [
+        "S17",
+        "S15",
+        "S12"
+      ]
+    },
+    {
+      "mode": "dense",
+      "qid": "Q16",
+      "gold": "S18",
+      "rank": 1,
+      "top3": [
+        "S18",
+        "S05",
+        "S25"
+      ]
+    },
+    {
+      "mode": "dense",
+      "qid": "Q17",
+      "gold": "S19",
+      "rank": 1,
+      "top3": [
+        "S19",
+        "S21",
+        "S20"
+      ]
+    },
+    {
+      "mode": "dense",
+      "qid": "Q18",
+      "gold": "S21",
+      "rank": 1,
+      "top3": [
+        "S21",
+        "S19",
+        "S11"
+      ]
+    },
+    {
+      "mode": "dense",
+      "qid": "Q19",
+      "gold": "S23",
+      "rank": 1,
+      "top3": [
+        "S23",
+        "S24",
+        "S06"
+      ]
+    },
+    {
+      "mode": "dense",
+      "qid": "Q20",
+      "gold": "S27",
+      "rank": 1,
+      "top3": [
+        "S27",
+        "S28",
+        "S24"
+      ]
+    },
+    {
+      "mode": "hybrid",
+      "qid": "Q01",
+      "gold": "S01",
+      "rank": 1,
+      "top3": [
+        "S01",
+        "S03",
+        "S29"
+      ]
+    },
+    {
+      "mode": "hybrid",
+      "qid": "Q02",
+      "gold": "S02",
+      "rank": 1,
+      "top3": [
+        "S02",
+        "S06",
+        "S08"
+      ]
+    },
+    {
+      "mode": "hybrid",
+      "qid": "Q03",
+      "gold": "S03",
+      "rank": 1,
+      "top3": [
+        "S03",
+        "S07",
+        "S01"
+      ]
+    },
+    {
+      "mode": "hybrid",
+      "qid": "Q04",
+      "gold": "S04",
+      "rank": 1,
+      "top3": [
+        "S04",
+        "S23",
+        "S03"
+      ]
+    },
+    {
+      "mode": "hybrid",
+      "qid": "Q05",
+      "gold": "S05",
+      "rank": 1,
+      "top3": [
+        "S05",
+        "S28",
+        "S04"
+      ]
+    },
+    {
+      "mode": "hybrid",
+      "qid": "Q06",
+      "gold": "S06",
+      "rank": 1,
+      "top3": [
+        "S06",
+        "S07",
+        "S01"
+      ]
+    },
+    {
+      "mode": "hybrid",
+      "qid": "Q07",
+      "gold": "S07",
+      "rank": 1,
+      "top3": [
+        "S07",
+        "S03",
+        "S02"
+      ]
+    },
+    {
+      "mode": "hybrid",
+      "qid": "Q08",
+      "gold": "S08",
+      "rank": 1,
+      "top3": [
+        "S08",
+        "S07",
+        "S03"
+      ]
+    },
+    {
+      "mode": "hybrid",
+      "qid": "Q09",
+      "gold": "S09",
+      "rank": 1,
+      "top3": [
+        "S09",
+        "S02",
+        "S15"
+      ]
+    },
+    {
+      "mode": "hybrid",
+      "qid": "Q10",
+      "gold": "S10",
+      "rank": 1,
+      "top3": [
+        "S10",
+        "S28",
+        "S14"
+      ]
+    },
+    {
+      "mode": "hybrid",
+      "qid": "Q11",
+      "gold": "S11",
+      "rank": 1,
+      "top3": [
+        "S11",
+        "S13",
+        "S15"
+      ]
+    },
+    {
+      "mode": "hybrid",
+      "qid": "Q12",
+      "gold": "S12",
+      "rank": 1,
+      "top3": [
+        "S12",
+        "S15",
+        "S17"
+      ]
+    },
+    {
+      "mode": "hybrid",
+      "qid": "Q13",
+      "gold": "S13",
+      "rank": 5,
+      "top3": [
+        "S19",
+        "S21",
+        "S02"
+      ]
+    },
+    {
+      "mode": "hybrid",
+      "qid": "Q14",
+      "gold": "S14",
+      "rank": 1,
+      "top3": [
+        "S14",
+        "S12",
+        "S15"
+      ]
+    },
+    {
+      "mode": "hybrid",
+      "qid": "Q15",
+      "gold": "S17",
+      "rank": 1,
+      "top3": [
+        "S17",
+        "S15",
+        "S12"
+      ]
+    },
+    {
+      "mode": "hybrid",
+      "qid": "Q16",
+      "gold": "S18",
+      "rank": 1,
+      "top3": [
+        "S18",
+        "S25",
+        "S05"
+      ]
+    },
+    {
+      "mode": "hybrid",
+      "qid": "Q17",
+      "gold": "S19",
+      "rank": 1,
+      "top3": [
+        "S19",
+        "S10",
+        "S23"
+      ]
+    },
+    {
+      "mode": "hybrid",
+      "qid": "Q18",
+      "gold": "S21",
+      "rank": 1,
+      "top3": [
+        "S21",
+        "S02",
+        "S07"
+      ]
+    },
+    {
+      "mode": "hybrid",
+      "qid": "Q19",
+      "gold": "S23",
+      "rank": 1,
+      "top3": [
+        "S23",
+        "S24",
+        "S06"
+      ]
+    },
+    {
+      "mode": "hybrid",
+      "qid": "Q20",
+      "gold": "S27",
+      "rank": 1,
+      "top3": [
+        "S27",
+        "S28",
+        "S24"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+# Tested with Python 3.10
+google-genai==2.33.0
+sentence-transformers==6.2.0
+rank-bm25==0.2.2
+streamlit==1.65.0
+python-dotenv==1.2.4
+pandas==2.3.3
+numpy==2.2.6
